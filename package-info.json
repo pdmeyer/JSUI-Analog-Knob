@@ -1,0 +1,47 @@
+{
+    "name": "JSUI Analog Knob",
+    "displayname": "",
+    "version": "0.0.0",
+    "author": "Philip Meyer",
+    "authors": [],
+    "description": "A simple JSUI example creating an analog synth-style knob made.",
+    "tags": [
+        "JSUI"
+    ],
+    "website": "https://github.com/pdmeyer/JSUI-Analog-Knob",
+    "extends": "",
+    "extensible": 0,
+    "max_version_min": "8.5.0",
+    "max_version_max": "none",
+    "os": {
+        "macintosh": {
+            "min_version": "10.11.x",
+            "platform": [
+                "aarch64",
+                "x64"
+            ]
+        },
+        "windows": {
+            "min_version": "8",
+            "platform": [
+                "x64"
+            ]
+        }
+    },
+    "homepatcher": "analogknob.maxpat",
+    "package_extra": {
+        "copyright": "Copyright (c) 2023 Philip Meyer"
+    },
+    "filelist": {
+        "patchers": [
+            "analogknob.maxpat"
+        ],
+        "javascript": [
+            "analogknob.js"
+        ],
+        "media": [
+            "body.svg",
+            "center.png"
+            ]
+    }
+}

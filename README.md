@@ -1,5 +1,6 @@
 # JSUI-Analog-Knob
-A simple JSUI example creating an analog synth-style knob made.
+A simple JSUI example creating an analog synth-style knob.
+<img width="177" alt="Screenshot 2023-10-09 at 2 22 49 PM" src="https://github.com/pdmeyer/JSUI-Analog-Knob/assets/44841504/46dca171-25c6-477e-89f9-30393108acca">
 
 This makes use of JSUI's ability to render and transform SVG and PNG files. In this case, the black knob body is an SVG file, while the silver center portion is a PNG (because JSUI doesn't handle angular shading).
 
